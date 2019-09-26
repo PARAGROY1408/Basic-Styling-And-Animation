@@ -1,0 +1,219 @@
+body{
+	margin:0px;
+}
+#topnav{
+	margin:0px;
+	margin-top:50px;
+	background:darkblue;
+	padding:10px;
+	text-align:center;
+	box-shadow:0px 0px 15px blue;
+	animation:menuanimate;
+	animation-duration:3s;
+	animation-iteration-count:infinite;
+	
+	
+}
+#topnav li{
+	display:inline;
+	margin-right:25px;
+	
+	
+	
+}
+#topnav li a{
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	text-shadow:0px 2px 2px red;
+	font-size:18px;
+	
+}
+
+@keyframes banneranimate{
+	30%{ color: blue; background-image:url("2.jpg"): }
+	60%{ color: red; background-image:url("3.jpg"); }
+	90%{ color: black; background-image:url("4.jpg");}
+	
+}
+#banner{
+	height:250px;
+	padding-top:100px;
+	color:green;
+	font-weight:bold;
+	font-size:40px;
+	background-image:url("1.jpg");
+	background-size:100%;
+	background-position:center;
+	text-align:center;
+	animation:banneranimate;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+	
+}
+#container{
+	min-height:600px;
+	margin:auto;
+	width:80%;
+	margin-top:50px;
+}
+#footer{
+	min-height:250px;
+	text-align:center;
+	color:white;
+	padding-top:20px;
+	background-image:linear-gradient( darkblue,red,black);/* CSS 3*/
+}
+.info{
+	text-align:center;
+	
+}
+#p1{
+	column-count:2;/* CSS 3*/
+	text-align:justify;
+}
+#p2{
+	column-count:3;/* CSS 3*/
+	text-align:justify;
+}
+@keyframes menuanimate{
+	30%{ background-image:linear-gradient(to left,green,darkblue);}
+	60%{ background-image:linear-gradient(to left,green,darkblue);}
+	90%{ background-image:linear-gradient(to left,green,orange);}
+}
+.block2{
+	float:left;
+	margin:1%;
+	width:48%;
+	min-height:350px;
+	
+}
+#block21{
+	padding-left:20%;
+	padding-right:10%;
+	height:300px;
+	width:150px;
+	border-radius:45%;
+	margin-top:25px;
+	
+}
+.block22{
+	height:30px;
+	margin-bottom:25px;
+	
+	
+	
+}
+#block22{
+	margin-top:25px;
+	margin-bottom:25px;
+	border:2px solid orange;
+	border-radius: 5px 50px 5px 50px;
+	width:400px;
+	
+}
+.contactinfo{
+	margin-top:50px;
+	width:43%;
+	float:left;
+	margin:1%;
+	min-height:400px;
+	padding:2%;
+	text-align:center;
+	
+	
+}
+.contactinfo legend{
+	padding:6px;
+	color:green;
+	background:orange;
+	font-weight:bold;
+	
+}
+.contactinfo1{
+	height:30px;
+	margin-bottom:25px;
+	
+}
+.biginput{
+	height:60px;
+	width:100%;
+	
+}
+button{
+	padding:10px;
+	color:red;
+	background:skyblue;
+}
+.incenter{
+	margin-left:25%;
+}
+.inputbox{
+	margin-bottom:15px;
+}
+.smallinput{
+	width:100%;
+	height:25px;
+}
+label{
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+}
+#danger{
+	padding:10px;
+	background:red;
+	color:black;
+	border-radius:5px;
+	border:2px solid black;
+	width:75px;
+}
+#success{
+	padding:10px;
+	background:green;
+	color:black;
+	border-radius:5px;
+	border:2px solid black;
+	width:75px;
+}
+.btncenter{
+	text-align:center !important;
+}
+
+@keyframe animateimage{
+	20%{ border-radius:50%;}
+	40%{ border-radius:70px 0px 0px 0px;}
+	60%{ border-radius:0px 70px 0px 0px;}
+	80%{ border-radius:0px 0px 70px 0px;}
+	100%{ border-radius:0px 0px 0px 70px;}
+}
+.smallimage{
+	margin:1%;
+	height:150px;
+	width:22.5%;
+	animation:animateimage;
+	animation-duration:4s;
+	
+	animation-iteration-count:infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
